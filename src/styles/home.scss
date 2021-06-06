@@ -1,3 +1,12 @@
 .main-home-page {
     color: green;
+    margin: 0 5rem;
+    font-size: 1em;
+
+    .home-page-content {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 5.8rem);
+    }
 }
