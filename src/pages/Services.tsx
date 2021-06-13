@@ -1,9 +1,16 @@
 import React from "react";
+import ServiceDisplay from "../components/ServiceDisplay";
+import Mulch1 from "../images/mulch_install_1.jpg";
+import Mulch2 from "../images/mulch_install_2.jpg";
 
 export const Services: React.FunctionComponent = () => {
     return (
         <div className="services-page">
-            <h1>This is the services page</h1>
+            <ServiceDisplay 
+                img={Mulch1} 
+                header={"Mulch Installation"} 
+                details="This is the content for the page"
+            />
         </div>
     );
 }
