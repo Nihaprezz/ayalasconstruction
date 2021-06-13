@@ -1,7 +1,7 @@
 import React from "react";
 
 interface ServiceDisplayProps {
-    img: string;
+    img: string[];
     header: string;
     details: string | JSX.Element;
 }
@@ -12,14 +12,22 @@ const ServiceDisplay: React.FunctionComponent<ServiceDisplayProps> = (props: Ser
         <>
             <div className="service-container card">
                 <div className="image-container card-image">
-                    image will go here
+                    <img src={props.img[0]}/>
                 </div>
                 <div className="main-content">
-                    <div className="header">
-                        Header will go here
+                    <div className="header title">
+                        {props.header}
                     </div>
                     <div className="details">
-                        Rest of the details will go here
+                        {typeof props.details === "string" ? (
+                            <div className="common-details">
+                                {props.details}
+                            </div>
+                        ): (
+                            <>
+                                {props.details}
+                            </>
+                        )}
                     </div>
                 </div>
             </div>
