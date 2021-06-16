@@ -1,6 +1,7 @@
 import React from "react";
 import MulchService from "../components/MulchService";
 import SoldInstallation from "../components/SoldInstallService";
+import WorkStoneService from "../components/WorkStoneService";
 import "../styles/services.scss";
 
 export const Services: React.FunctionComponent = () => {
@@ -10,6 +11,7 @@ export const Services: React.FunctionComponent = () => {
             <h1 className="title is-1">SERVICES</h1>
             <MulchService/>
             <SoldInstallation/>
+            <WorkStoneService/>
         </div>
     );
 }

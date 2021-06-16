@@ -1,4 +1,3 @@
-### react ###
 .DS_*
 *.log
 logs
@@ -19,7 +18,6 @@ node_modules/.cache/.eslintcache
 .eslintcache
 build/
 
-# Local History for Visual Studio Code
 .history/
 
  src/images/.DS_Store
