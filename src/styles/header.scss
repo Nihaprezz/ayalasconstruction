@@ -1,11 +1,16 @@
 @import "colors";
 
+.navbar {
+    align-items: center !important;
+}
+
 #navbarMain {
     position: absolute;
     width: 100%;
 }
 
 .navbar-brand {
+    z-index: 1;
     #navbar-img-logo {
         padding: 0;
         img {

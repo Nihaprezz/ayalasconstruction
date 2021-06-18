@@ -34,19 +34,35 @@ export const Header: React.FunctionComponent = () => {
                 className={`navbar-menu ${openNavBar ? "is-active" : ""}`}
             >
                 <div className="navbar-end">
-                    <Link to="/" className="navbar-item">
+                    <Link 
+                        to="/" 
+                        className="navbar-item"
+                        onClick={() => setOpenNavBar(false)}
+                    >
                         Home
                     </Link>
 
-                    <Link to="/services" className="navbar-item">
+                    <Link 
+                        to="/services" 
+                        className="navbar-item" 
+                        onClick={() => setOpenNavBar(false)}
+                    >
                         Services
                     </Link>
 
-                    <Link to="/portfolio" className="navbar-item">
+                    <Link 
+                        to="/portfolio" 
+                        className="navbar-item" 
+                        onClick={() => setOpenNavBar(false)}
+                    >
                         Portfolio
                     </Link>
 
-                    <Link to="/contact" className="navbar-item">
+                    <Link 
+                        to="/contact" 
+                        className="navbar-item" 
+                        onClick={() => setOpenNavBar(false)}
+                    >
                         Contact Us
                     </Link>
                 </div>
