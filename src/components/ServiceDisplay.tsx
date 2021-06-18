@@ -7,7 +7,6 @@ interface ServiceDisplayProps {
 }
 
 const ServiceDisplay: React.FunctionComponent<ServiceDisplayProps> = (props: ServiceDisplayProps) => {
-    console.log(props);
     return (
         <>
             <div className="service-container card">

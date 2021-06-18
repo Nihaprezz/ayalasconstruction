@@ -9,6 +9,7 @@ import {Home} from "./pages/Home";
 import {Footer} from "./components/Footer";
 import {Services} from "./pages/Services";
 import {Portfolio} from "./pages/Portfolio";
+import {Contact} from "./pages/Contact";
 import "./App.scss";
 
 const App: React.FunctionComponent = () => {
@@ -28,7 +29,7 @@ const App: React.FunctionComponent = () => {
               <Portfolio/>
             </Route>
             <Route path="/contact">
-              <div>This will be the contact page</div>
+              <Contact/>
             </Route>
           </div>
         </Switch>
