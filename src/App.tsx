@@ -8,6 +8,7 @@ import {Header} from "./components/Header";
 import {Home} from "./pages/Home";
 import {Footer} from "./components/Footer";
 import {Services} from "./pages/Services";
+import {Portfolio} from "./pages/Portfolio";
 import "./App.scss";
 
 const App: React.FunctionComponent = () => {
@@ -24,7 +25,7 @@ const App: React.FunctionComponent = () => {
               <Services/>
             </Route>
             <Route path="/portfolio">
-              <div>This will be the portfolio page</div>
+              <Portfolio/>
             </Route>
             <Route path="/contact">
               <div>This will be the contact page</div>

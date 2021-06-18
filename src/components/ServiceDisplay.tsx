@@ -12,7 +12,7 @@ const ServiceDisplay: React.FunctionComponent<ServiceDisplayProps> = (props: Ser
         <>
             <div className="service-container card">
                 <div className="image-container card-image">
-                    <img src={props.img[0]}/>
+                    <img alt={`${props.header.toLocaleLowerCase()}`}  src={props.img[0]}/>
                 </div>
                 <div className="main-content">
                     <div className="header title">

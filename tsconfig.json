@@ -22,5 +22,12 @@
   },
   "include": [
     "src"
+  ],
+  "overrides": [
+    {
+      "rules": {
+        "array-callback-return": "off"
+      }
+    }
   ]
 }
