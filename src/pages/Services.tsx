@@ -5,6 +5,7 @@ import WorkStoneService from "../components/WorkStoneService";
 import PowerWashingService from "../components/PowerWashingService";
 import ConcreteResurfacingService from "../components/ConcreteResurfacingService";
 import TurfInstallService from "../components/TurfInstallService";
+import OtherServices from "../components/OtherServices";
 import "../styles/services.scss";
 
 export const Services: React.FunctionComponent = () => {
@@ -18,6 +19,7 @@ export const Services: React.FunctionComponent = () => {
             <PowerWashingService/>
             <ConcreteResurfacingService/>
             <TurfInstallService/>
+            <OtherServices/>
         </div>
     );
 }
