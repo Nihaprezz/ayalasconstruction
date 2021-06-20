@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/home.scss";
-// import Landing from "../images/landing.svg";
 import Landing from "../images/landing-design.png";
 
 export const Home: React.FunctionComponent = () => {
@@ -47,5 +46,5 @@ export const Home: React.FunctionComponent = () => {
                 </ul>
             </div>
         </div>
-    )
+    );
 };
