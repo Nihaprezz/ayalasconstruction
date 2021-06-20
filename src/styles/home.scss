@@ -1,5 +1,6 @@
+@import "colors";
+
 .main-home-page {
-    color: green;
     margin: 0 5rem;
     font-size: 1em;
 
@@ -7,6 +8,61 @@
         display: grid;
         justify-content: center;
         align-items: center;
-        height: calc(100vh - 5.8rem);
+        padding: 2.5rem 0;
+        color: $black;
+        text-align: center;
+        
+        #home-title {
+            background: rgb(66,146,34);
+            background: $gradient-1;
+            color: white;
+            padding: .625rem 1rem;
+            margin-bottom: .75rem;
+        }
+
+        #home-subtitle {
+            color: $black;
+            margin: .50rem;
+        }
+
+        #contact-us-div {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .home-page-logo {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .divider {
+        height: 1px;
+        background: $gradient-1;
+    }
+
+    .home-services-overview {
+        display: grid;
+        justify-content: center;   
+        padding: 2rem 0;  
+
+        p {
+            text-align: center;
+            background: rgb(66,146,34);
+            background: $gradient-1;
+            width: fit-content;
+            justify-self: center;
+            padding: .625rem 1rem;
+            color: white;
+        }
+
+        ul {
+            color: $black;
+            font-weight: bold;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
     }
 }
