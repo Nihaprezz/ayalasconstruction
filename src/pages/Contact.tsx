@@ -5,17 +5,17 @@ export const Contact: React.FunctionComponent = () => {
         <div className="contact-page">
             <h1 className="title is-1">CONTACT</h1>
             <div className="social-contacts">
-                <div>
-                    Facebook
+                <div className="icon is-large">
+                    <i className="fab fa-facebook-square fa-3x"/>
                 </div>
-                <div>
-                    Instagram
+                <div className="icon is-large">
+                    <i className="fab fa-instagram-square fa-3x"/>
                 </div>
-                <div>
-                    Gmail
+                <div className="icon is-large">
+                    <i className="fas fa-envelope-square fa-3x"/>
                 </div>
-                <div>
-                    Phone
+                <div className="icon is-large">
+                    <i className="fas fa-phone-square fa-3x"/>
                 </div>
             </div>
             <div className="form-container">

@@ -1,0 +1,17 @@
+@import "colors";
+
+.portfolio-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin: 1rem;
+
+    .image-tool-tip {
+        background: $gradient-1;
+        width: fit-content;
+        color: white;
+        padding: 0.625rem;
+        margin-top: -10px;
+    }
+}
