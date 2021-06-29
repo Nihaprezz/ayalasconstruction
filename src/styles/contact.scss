@@ -1,0 +1,49 @@
+@import "colors";
+
+.contact-page {
+    margin: 0 15rem;
+
+    .title {
+        width: fit-content;
+        background: $gradient-1;
+        color: white;
+        margin-top: 1rem;
+        padding: .35rem;
+    }
+
+    .form-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: .75rem;
+
+        .message-textarea {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    }
+
+    .contact-subtitle {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .social-contacts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        .icon {
+            width: auto;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 1rem;
+            color: rgb(54, 54, 54);
+
+            p {
+                margin-left: 1rem;
+                font-size: .85rem;
+
+            }
+        }
+    }
+}
