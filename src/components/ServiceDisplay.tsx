@@ -1,4 +1,5 @@
 import React from "react";
+import PhotoCarousel from "./PhotoCarousel";
 
 interface ServiceDisplayProps {
     img: string[];
@@ -7,11 +8,17 @@ interface ServiceDisplayProps {
 }
 
 const ServiceDisplay: React.FunctionComponent<ServiceDisplayProps> = (props: ServiceDisplayProps) => {
+    const [showModal, setShowModal] = React.useState<boolean>(false);
+    
     return (
         <>
             <div className="service-container card">
                 <div className="image-container card-image">
-                    <img alt={`${props.header.toLocaleLowerCase()}`}  src={props.img[0]}/>
+                    <img 
+                        alt={`${props.header.toLocaleLowerCase()}`}  
+                        src={props.img[0]}
+                        onClick={() => setShowModal(!showModal)}
+                    />
                 </div>
                 <div className="main-content">
                     <div className="header title">
@@ -30,6 +37,7 @@ const ServiceDisplay: React.FunctionComponent<ServiceDisplayProps> = (props: Ser
                     </div>
                 </div>
             </div>
+            {showModal && <PhotoCarousel images={props.img}/>}
         </>
     )
 }
