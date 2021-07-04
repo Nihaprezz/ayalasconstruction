@@ -1,4 +1,5 @@
 @import "colors";
+@import "media-vars.scss";
 
 .navbar {
     align-items: center !important;
@@ -15,6 +16,14 @@
         padding: 0;
         img {
             max-height: 2.75rem;
+        }
+    }
+}
+
+@media (max-width: $small-1) {
+    #navbarMain {
+        .navbar-item {
+            font-size: .8rem;
         }
     }
 }
