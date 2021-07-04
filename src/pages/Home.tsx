@@ -12,7 +12,9 @@ export const Home: React.FunctionComponent = () => {
                 <h1 id="home-title" className="title">Ayala's Construction LLC.</h1>
                 <p id="home-subtitle" className="subtitle">Landscaping, Erosion Control, and Site Work.</p>
                 <div id="contact-us-div">
-                    Contact us today at <span>571-464-3735.</span>
+                    Contact us today at 
+                    <span>571-464-3735</span> 
+                    <span>Hablamos espanol!</span>
                 </div>
             </div>
             <div className="divider"/>

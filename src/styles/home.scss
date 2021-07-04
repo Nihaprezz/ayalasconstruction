@@ -1,4 +1,5 @@
 @import "colors";
+@import "media-vars.scss";
 
 .main-home-page {
     margin: 0 5rem;
@@ -63,6 +64,45 @@
             font-weight: bold;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+@media (max-width: $small-1) {
+    .main-home-page {
+        margin: 0;
+
+        .home-page-content {
+            padding: 1rem;
+
+            #home-title {
+                font-size: 1.2rem;
+            }
+
+            #home-subtitle, #contact-us-div {
+                font-size: .75rem;
+            }
+        }
+
+        .divider {
+            margin: 0 1rem;
+        }
+
+        .home-services-overview {
+           //border: 1px solid red;
+            .title {
+                font-size: 1.2rem;
+            }
+
+            ul {
+                grid-template-columns: repeat(2, 1fr);
+                justify-items: center;
+                column-gap: .50rem;
+
+                li {
+                    font-size: .75rem;
+                }
+            }
         }
     }
 }
