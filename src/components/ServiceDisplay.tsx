@@ -1,5 +1,5 @@
 import React from "react";
-import PhotoCarousel from "./PhotoCarousel";
+// import PhotoCarousel from "./PhotoCarousel";
 
 interface ServiceDisplayProps {
     img: string[];
@@ -8,7 +8,7 @@ interface ServiceDisplayProps {
 }
 
 const ServiceDisplay: React.FunctionComponent<ServiceDisplayProps> = (props: ServiceDisplayProps) => {
-    const [showModal, setShowModal] = React.useState<boolean>(false);
+    // const [showModal, setShowModal] = React.useState<boolean>(false);
     
     return (
         <>
@@ -38,7 +38,7 @@ const ServiceDisplay: React.FunctionComponent<ServiceDisplayProps> = (props: Ser
                     </div>
                 </div>
             </div>
-            {showModal && <PhotoCarousel images={props.img}/>}
+            {/* {showModal && <PhotoCarousel images={props.img}/>} */}
         </>
     )
 }
