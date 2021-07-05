@@ -17,7 +17,8 @@ const ServiceDisplay: React.FunctionComponent<ServiceDisplayProps> = (props: Ser
                     <img 
                         alt={`${props.header.toLocaleLowerCase()}`}  
                         src={props.img[0]}
-                        onClick={() => setShowModal(!showModal)}
+                        // onClick={() => setShowModal(!showModal)}
+                        onClick={() => console.log("Still working on this")}
                     />
                 </div>
                 <div className="main-content">
