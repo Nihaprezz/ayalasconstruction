@@ -13,7 +13,7 @@ export const Home: React.FunctionComponent = () => {
                 <p id="home-subtitle" className="subtitle">Landscaping, Erosion Control, and Site Work.</p>
                 <div id="contact-us-div">
                     Contact us today at 
-                    <span>571-464-3735</span> 
+                    <span>571-501-9953</span> 
                     <span>Hablamos espanol!</span>
                 </div>
             </div>

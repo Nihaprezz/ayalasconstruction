@@ -58,7 +58,7 @@ export const Contact: React.FunctionComponent = () => {
                 </div>
                 <div className="icon is-large">
                     <i className="fas fa-phone-square fa-3x"/>
-                    <p>571-464-3735</p>
+                    <p>571-501-9953</p>
                 </div>
             </div>
         </div>

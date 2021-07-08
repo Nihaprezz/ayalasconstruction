@@ -10,7 +10,7 @@ export const Footer: React.FunctionComponent = () => {
                 <p>@ {currentYear} Ayala's Construction. All Rights Reserved.</p>
             </div>
             <div className="content">
-                <p>Telephone: 571-464-3735</p>
+                <p>Telephone: 571-501-9953</p>
             </div>
         </footer>
     )
